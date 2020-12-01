@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Problem Solving</title>
+  </head>
+  <body>
+    <h1 class="title">Tìm Số Lượng Khu Vườn Trong Trang Trại Nhà Vân</h1>
+    <div style="display: flex">
+      <div style="border-right: 1px solid black; padding-right: 2rem">
+        <h3>Tạo vườn theo phong cách riêng của bạn:</h3>
+        <p style="display: inline">Nhập số hàng:</p>
+        <input style="width: 5rem" type="number" min="2" max="100" id="row" />
+        <div style="margin-top: 1rem">
+          <p style="display: inline">Nhập số cột:</p>
+          <input
+            style="width: 5rem; margin-left: 0.8rem"
+            type="number"
+            min="2"
+            max="100"
+            id="column"
+          />
+        </div>
+        <button
+          style="
+            border: none;
+            background: #00000024;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            border-radius: 1rem;
+          "
+          id="create"
+        >
+          Tạo
+        </button>
+      </div>
+      <div style="margin-left: 2rem">
+        <h3>Chọn mẫu vườn có sẵn</h3>
+        <button
+          style="
+            border: none;
+            background: #00000024;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            border-radius: 1rem;
+          "
+          id="mau1"
+        >
+          Mẫu 1
+        </button>
+        <button
+          style="
+            border: none;
+            background: #00000024;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            border-radius: 1rem;
+          "
+          id="mau2"
+        >
+          Mẫu 2
+        </button>
+        <button
+          style="
+            border: none;
+            background: #00000024;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            border-radius: 1rem;
+          "
+          id="mau3"
+        >
+          Mẫu 3
+        </button>
+        <button
+          style="
+            border: none;
+            background: #00000024;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            border-radius: 1rem;
+          "
+          id="mau4"
+        >
+          Mẫu 4
+        </button>
+        <button
+          style="
+            border: none;
+            background: #00000024;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            border-radius: 1rem;
+          "
+          id="mau5"
+        >
+          Mẫu 5
+        </button>
+      </div>
+    </div>
+    <p style="margin-top: 4rem">Số Lượng Khu Vườn: <span id="garden"></span></p>
+    <div id="box"></div>
+    <button
+      style="
+        border: none;
+        background: #00000024;
+        padding: 1rem 2rem;
+        margin: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        border-radius: 1rem;
+      "
+      id="ok"
+    >
+      OK
+    </button>
+    <script src="./index.js"></script>
+  </body>
+</html>
